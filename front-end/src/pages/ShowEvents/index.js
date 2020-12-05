@@ -1,8 +1,12 @@
 import React from 'react';
 
+import { ContainerEvents } from './styles';
+
 function ShowEvents(){
     return(
-        <div>Eventos</div>
+        <ContainerEvents>
+            Eventos
+        </ContainerEvents>
     );
 }
 
