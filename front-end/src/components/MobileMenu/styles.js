@@ -44,6 +44,10 @@ export const MenuContainer = styled.div`
             align-items: center;
             justify-content: center;
             padding: 1.5%;
+
+            :last-child{
+                margin-bottom: 1.5rem;
+            }
             
 
             a{            
