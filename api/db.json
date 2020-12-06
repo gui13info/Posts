@@ -23,8 +23,17 @@
     ],
 
     "local": [
-        "Presencial",
-        "Online",
-        "Híbrido"
+        {
+            "id": 1,
+            "nome": "Presencial" 
+        },
+        {
+            "id": 2,
+            "nome": "Online"
+        },
+        {
+            "id": 3,
+            "nome": "Híbrido"
+        }
     ]
 }
