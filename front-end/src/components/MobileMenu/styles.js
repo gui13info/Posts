@@ -5,6 +5,7 @@ export const MenuContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15rem;
 
     .menu{
         background-color: #0E0A14ff;

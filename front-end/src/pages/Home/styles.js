@@ -15,7 +15,7 @@ export const ContainerHome = styled.div`
         box-shadow: 0.2rem 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.2), 
                     0.4rem 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2); 
         border: 1px solid #1C93AD;
-        border-radius: 5rem;
+        border-radius: 0.5rem;
         color: var(--color-white);
 
         h1{

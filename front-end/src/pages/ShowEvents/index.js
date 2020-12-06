@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import { ContainerEvents } from './styles';
 
@@ -10,7 +11,7 @@ function ShowEvents(){
     useEffect(() => {
         api.get('/products').then((res) => {
 
-            const docs = res.data
+            const docs = res.data;
 
             setProducts(docs);
             console.log(docs);
@@ -20,7 +21,18 @@ function ShowEvents(){
 
     return(
         <ContainerEvents>
-            Eventos
+            {products.map(product => (
+                <article key={product.id}>
+                    <strong>{product.titulo}</strong>
+
+                    <div className="data-hora">
+                        <p>Data: {product.data}</p>
+                        <p>Hora: {product.hora}</p>
+                    </div>
+
+                    <Link to={`/events-details/${product.id}`}>Detalhes</Link>
+                </article>
+            ))}
         </ContainerEvents>
     );
 }
