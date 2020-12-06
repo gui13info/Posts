@@ -11,7 +11,7 @@ export const ContainerHome = styled.div`
         width: 30rem;
         padding: 2rem;
 
-        background-color: #4bb3bc;
+        background-color: #196EAB;
         box-shadow: 0.2rem 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.2), 
                     0.4rem 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2); 
         border: 1px solid #1C93AD;
