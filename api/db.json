@@ -1,39 +1,51 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "titulo": "Softaliza",
-            "descricao": "Desenvolvemos aplicações para que você acompanhe sua instituição em qualquer lugar e a qualquer momento com apenas um toque.",
-            "email": "softaliza@gmail.com",
-            "telefone": "00000000000",
-            "endereco": "https://softaliza.com.br/",
-            "data": "10/12/2020",
-            "hora": "13:30"
-        },
-        {
-            "id": 2,
-            "titulo": "ReactJS",
-            "descricao": "É uma biblioteca JavaScript para criar interfaces de usuário.",
-            "email": "reactJS@gmail.com",
-            "telefone": "01000000000",
-            "endereco": "https://pt-br.reactjs.org/",
-            "data": "10/12/2020",
-            "hora": "13:00"
-        }
-    ],
-
-    "local": [
-        {
-            "id": 1,
-            "nome": "Presencial" 
-        },
-        {
-            "id": 2,
-            "nome": "Online"
-        },
-        {
-            "id": 3,
-            "nome": "Híbrido"
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "titulo": "Softaliza",
+      "descricao": "Desenvolvemos aplicações para que você acompanhe sua instituição em qualquer lugar e a qualquer momento com apenas um toque.",
+      "email": "softaliza@gmail.com",
+      "telefone": "00000000000",
+      "local": "Online",
+      "endereco": "https://softaliza.com.br/",
+      "data": "2020-12-10",
+      "hora": "13:30"
+    },
+    {
+      "id": 2,
+      "titulo": "ReactJS",
+      "descricao": "É uma biblioteca JavaScript para criar interfaces de usuário.",
+      "email": "reactJS@gmail.com",
+      "telefone": "01000000000",
+      "local": "Online",
+      "endereco": "https://pt-br.reactjs.org/",
+      "data": "2020-12-10",
+      "hora": "13:00"
+    },
+    {
+      "titulo": "Testando",
+      "descricao": "Testando envio",
+      "email": "testando@gmail.com",
+      "telefone": "000000000",
+      "data": "2020-12-06",
+      "hora": "22:31",
+      "local": "Presencial",
+      "endereco": "Rua Milton Santa Cruz",
+      "id": 3
+    }
+  ],
+  "local": [
+    {
+      "id": 1,
+      "nome": "Presencial"
+    },
+    {
+      "id": 2,
+      "nome": "Online"
+    },
+    {
+      "id": 3,
+      "nome": "Híbrido"
+    }
+  ]
 }
