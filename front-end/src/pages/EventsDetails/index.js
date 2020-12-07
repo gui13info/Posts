@@ -30,7 +30,7 @@ function EventsDetails(){
 
             <div className="InfoEvents">
                 <h1> {product.titulo} </h1>
-                <h2> {product.descricao} </h2>
+                <h2><strong>Descrição:</strong> {product.descricao} </h2>
 
                 <div className="contato">
                     <p><strong>Email:</strong> {product.email}</p>
@@ -42,7 +42,8 @@ function EventsDetails(){
                     <p><strong>Hora:</strong> {product.hora}</p>
                 </div>
 
-                <p><strong>Local:</strong> {product.endereco}</p>
+                <p><strong>Local:</strong> {product.local}</p>
+                <p><strong>Endreco:</strong> {product.endereco}</p>
             
                 <div className="acitions">
                     <i className='edit'> <MdEdit /> </i>
