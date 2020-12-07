@@ -71,7 +71,7 @@ function NewEvent(){
         <ContainerEvent>
 
             <section>
-                <form action="">
+                <form onSubmit={handleSubmit}>
                     <fieldset>
                         <legend>Dados do Evento</legend>
 
@@ -173,11 +173,11 @@ function NewEvent(){
                             </div>
 
                             <div className="form-item">
-                                <label htmlFor="data">Endereço:</label>
+                                <label htmlFor="adress">Endereço:</label>
                                 <input 
                                     type="adress" 
-                                    id="data"
-                                    name="data"
+                                    id="adress"
+                                    name="adress"
                                     placeholder='Digite seu Endereço'
                                     value={endereco}
                                     onChange={({ target }) => setEndereco(target.value)}
@@ -191,7 +191,7 @@ function NewEvent(){
 
                     <div className="buttons">
                         <button type='submit' className='limpar' onClick={handleLimpar}>Limpar</button>
-                        <button type='submit' className='criar' onClick={handleSubmit}>Criar</button>
+                        <button type='submit' className='criar'>Criar</button>
                     </div>
                 </form>
             </section>

@@ -7,10 +7,10 @@ export const ContainerEvent = styled.div`
     flex-direction: column;
 
     margin: 2rem auto 0;
-    padding: 0 20px;
+    padding: 0 2rem;
 
     section{
-        width: 32rem;
+        width: 29rem;
         background-color: #196EAB;
         color: #E5E5EA;
         margin-bottom: 2rem;
@@ -178,4 +178,94 @@ export const ContainerEvent = styled.div`
         } //form
 
     } //section
+
+    /* SMALL DEVICES - SMARTPHONE */
+
+    @media(min-width: 600px){
+        section{
+            width: 33rem;
+        }
+    }
+
+    /* SMALL DEVICES - TABLETS */
+
+    @media(min-width: 768px){
+        section{
+            width: 38rem;
+            
+            form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+
+                fieldset{
+                    .form-row-items{
+                        flex-direction: row;
+
+                        .form-item{
+                            width: 48%;
+                        } //form-item
+
+                    } //form-row-items
+
+                } //fieldset
+
+                .buttons{
+
+                    button{
+
+                        width: 12rem;
+                        height: 3rem;
+                    }
+
+                    .limpar{
+                        margin: 0 1rem 0 0;
+                    }
+                }
+
+            } //form
+
+        } //section
+    }
+
+    /* MEDIUM DEVICES - TABLETS & DESKTOPS */
+
+    @media(min-width: 992px){
+        section{
+            width: 40rem;
+
+            form{
+                .buttons{
+                    flex-direction: row;
+
+                    button{
+
+                        width: 12.5rem;
+                        height: 3.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /* LARGE DEVICES - WIDE SCREENS */
+
+    @media(min-width: 1200px){
+        section{
+            width: 50rem;
+
+            form{
+                .buttons{
+                    flex-direction: row;
+
+                    button{
+
+                        width: 14rem;
+                        height: 4rem;
+                    }
+                }
+            }
+        }
+    }
 `;

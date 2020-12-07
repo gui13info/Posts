@@ -93,4 +93,175 @@ export const ContainerEvents = styled.div`
             }
         }
     } //InfoEvents
+
+    /* SMALL DEVICES - SMARTPHONE */
+
+    @media(min-width: 600px){
+        .InfoEvents{
+            width: 34rem;
+
+            h2{
+                font-size: 1.8rem;
+            }
+
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    /* SMALL DEVICES - TABLETS */
+
+    @media(min-width: 768px){
+        .InfoEvents{
+            width: 40rem;
+
+            h1{
+                font-size: 3.2rem;
+                text-align: center;
+            }
+
+            h2{
+                font-size: 1.8rem;
+            }
+
+            p{
+                font-size: 1.6rem;
+            }
+
+            .contato{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+
+            .data-hora{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                p{
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: auto;
+                }
+            }
+
+            .acitions{
+
+                i{
+                    width: 4.4rem;
+                    height: 3.3rem;
+
+                    :first-child{
+                        margin-bottom: 0.7rem;
+                    }
+
+                    :hover{
+                        opacity: 0.5;
+                    }
+                }
+            }
+        } //InfoEvents
+    }
+
+    /* MEDIUM DEVICES - TABLETS & DESKTOPS */
+
+    @media(min-width: 992px){
+        .InfoEvents{
+            width: 44rem;
+
+            .contato{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                p{
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: auto;
+                }
+            }
+
+            .data-hora{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                p{
+                    margin-right: auto;
+
+                    :last-child{
+                        margin-left: 3.5rem;
+                    }
+                }
+            }
+
+            .acitions{
+                align-items: center;
+                justify-content: center;
+                flex-direction: row-reverse;
+                padding: 2rem;
+
+                i{
+                    width: 10rem;
+                    height: 4rem;
+                    border-radius: 6rem;
+                    margin: 0;
+                    font-size: 2rem;
+
+                    :first-child{
+                        margin: 0;
+                    }
+
+                    :last-child{
+                        margin: 0 1rem 0 0;
+                    }
+
+                    :hover{
+                        opacity: 0.5;
+                    }
+                }
+            }
+        } //InfoEvents
+    }
+
+    /* LARGE DEVICES - WIDE SCREENS */
+
+    @media(min-width: 1200px){
+        .InfoEvents{
+            width: 50rem;           
+
+            .acitions{
+                align-items: center;
+                justify-content: center;
+                flex-direction: row-reverse;
+                padding: 2rem;
+
+                i{
+                    width: 12rem;
+                    height: 4rem;
+                    border-radius: 6rem;
+                    margin: 0;
+                    font-size: 2rem;
+
+                    :first-child{
+                        margin: 0;
+                    }
+
+                    :last-child{
+                        margin: 0 1rem 0 0;
+                    }
+
+                    :hover{
+                        opacity: 0.5;
+                    }
+                }
+            }
+        } //InfoEvents
+    }
 `;

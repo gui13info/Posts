@@ -4,6 +4,7 @@ import { ContainerHeader } from './styles';
 
 import { BiMenu } from 'react-icons/bi';
 import MobileMenu from '../MobileMenu';
+import MenuDesktop from '../MenuDesktop';
 
 function Header(){
     const [show, setShow] = useState(false);
@@ -23,10 +24,13 @@ function Header(){
             }
 
             <header>
+                <h1>Softaliza</h1>
+
                 <p>
-                    Softaliza
                     <i onClick={handleShow}> <BiMenu /> </i>
                 </p>
+
+                <MenuDesktop />
             </header>
         </ContainerHeader>
     );

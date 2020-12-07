@@ -30,4 +30,51 @@ export const ContainerHome = styled.div`
         }
         
     }//article
+
+    /* SMALL DEVICES - SMARTPHONE */
+
+    @media(min-width: 600px){
+        article{
+            width: 35rem;
+            padding: 3rem;
+
+            h1{
+                font-size: 2.3rem;
+                margin-bottom: 1.6rem;
+            }
+
+            p{
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+        
+        }//article
+    }
+
+    /* SMALL DEVICES - TABLETS */
+
+    @media(min-width: 768px){
+        article{
+            height: 15rem;
+        }
+    }
+
+    /* MEDIUM DEVICES - TABLETS & DESKTOPS */
+
+    @media(min-width: 992px){
+        article{
+            height: 15rem;
+        }
+    }
+
+    /* LARGE DEVICES - WIDE SCREENS */
+
+    @media(min-width: 1200px){
+
+        article{
+            width: 40rem;
+            height: 15rem;
+            padding: 3rem;
+        }
+    }
 `; 
