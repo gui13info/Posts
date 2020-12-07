@@ -7,7 +7,7 @@ export const ContainerEvents = styled.div`
     flex-direction: column;
 
     margin: 2rem auto 0;
-    padding: 0 20px;
+    padding: 0 1.5rem;
 
     a{
         display: flex;
@@ -30,9 +30,9 @@ export const ContainerEvents = styled.div`
     }
 
     .InfoEvents{
-        max-width: 70rem;
-        margin: 1rem auto 0;
-        padding: 20px;
+        width: 30rem;
+        margin: 1rem auto 1.5rem;
+        padding: 1.5rem;
         background: #196EAB;
         color: #E5E5EA;
         border-radius: 5px;
