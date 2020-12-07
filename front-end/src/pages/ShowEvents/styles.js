@@ -10,7 +10,7 @@ export const ContainerEvents = styled.div`
     padding: 0 20px;
 
     article{
-        width: 32rem;
+        width: 31rem;
 
         background: #196EAB;
 
