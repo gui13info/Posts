@@ -38,16 +38,16 @@ npm start
 <br>
 <br>
 
-### :wrench: Como Utilizar (Front-end)
+### :wrench: Como Utilizar (front-end)
 
 1. Clone esse repositório:
 ```sh 
 https://github.com/gui13info/Softaliza-Desafio
 ```
 
-2. Entre na pasta Front-end:
+2. Entre na pasta front-end:
 ```sh
-cd Front-end
+cd front-end
 ```
 3. Abra o projeto no seu editor de texto:
 
