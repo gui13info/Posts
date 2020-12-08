@@ -101,6 +101,7 @@ function UpdateEvent(props){
                                     type="tel" 
                                     id="tel"
                                     name="tel"
+                                    maxLength='11'
                                     placeholder='Digite seu Telefone'
                                     value={telefone}
                                     onChange={({ target }) => setTelefone(target.value)}
