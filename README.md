@@ -50,11 +50,11 @@ cd front-end
 
 3. Abra o projeto no seu editor de texto:
 
-4. No seu terminal, instale os pacotes necessários
+4. No seu terminal, instale os pacotes necessários:
 ```sh 
 yarn install
 ``` 
-6. Agora você pode iniciar a aplicação web
+6. Agora você pode iniciar a aplicação web:
 ```sh 
 yarn start
 ```
