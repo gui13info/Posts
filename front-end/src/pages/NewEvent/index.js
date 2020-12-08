@@ -20,7 +20,6 @@ function NewEvent(){
 
     useEffect(() => {
         api.get('/local').then(res => {
-            console.log(res.data);
             setModalidade(res.data);
         });
 

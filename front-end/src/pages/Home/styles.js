@@ -9,6 +9,7 @@ export const ContainerHome = styled.div`
 
     article{
         width: 30rem;
+        height: 15rem;
         padding: 2rem;
 
         background-color: #196EAB;
@@ -28,6 +29,19 @@ export const ContainerHome = styled.div`
             font-size: 1.3rem;
             font-weight: 500;
         }
+
+        footer{
+            margin-top: 2.5rem;
+            
+            p{
+                font-size: 1.2rem;
+                font-weight: 500;
+
+                a{
+                    color: var(--color-white);
+                }
+            }
+        }
         
     }//article
 
@@ -35,17 +49,27 @@ export const ContainerHome = styled.div`
 
     @media(min-width: 600px){
         article{
-            width: 35rem;
+            width: 36rem;
+            height: 18rem;
             padding: 3rem;
 
             h1{
                 font-size: 2.3rem;
-                margin-bottom: 1.6rem;
+                margin-bottom: 1.8rem;
             }
 
             p{
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 font-weight: 500;
+            }
+
+            footer{
+                margin-top: 2.8rem;
+                
+                p{
+                    font-size: 1.3rem;
+                    font-weight: 500;
+                }
             }
         
         }//article
@@ -55,7 +79,15 @@ export const ContainerHome = styled.div`
 
     @media(min-width: 768px){
         article{
-            height: 15rem;
+            height: 20rem;
+
+            h1{
+                margin-bottom: 2.3rem;
+            }
+
+            footer{
+                margin-top: 3rem;
+            }
         }
     }
 
@@ -63,7 +95,7 @@ export const ContainerHome = styled.div`
 
     @media(min-width: 992px){
         article{
-            height: 15rem;
+            height: 20rem;
         }
     }
 
@@ -73,7 +105,7 @@ export const ContainerHome = styled.div`
 
         article{
             width: 40rem;
-            height: 15rem;
+            height: 20rem;
             padding: 3rem;
         }
     }
