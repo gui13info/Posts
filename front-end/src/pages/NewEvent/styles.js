@@ -143,7 +143,7 @@ export const ContainerEvent = styled.div`
                     justify-content: center;
                     align-items: center;
 
-                    width: 10rem;
+                    width: 12rem;
                     height: 3rem;
                     border-radius: 2rem;
                     font-size: 1.5rem;
@@ -220,7 +220,11 @@ export const ContainerEvent = styled.div`
                     }
 
                     .limpar{
-                        margin: 0 1rem 0 0;
+                        margin: 0 0 0 0;
+                    }
+
+                    .criar{
+                        margin: 1rem 0 0 0;
                     }
                 }
 
@@ -243,6 +247,14 @@ export const ContainerEvent = styled.div`
 
                         width: 12.5rem;
                         height: 3.5rem;
+                    }
+
+                    .limpar{
+                        margin: 0 1.5rem 0 0;
+                    }
+                    
+                    .criar{
+                        margin: 0;
                     }
                 }
             }
