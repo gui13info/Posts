@@ -14,11 +14,10 @@ https://github.com/gui13info/Softaliza-Desafio
 2. Entre na pasta api:
 ```sh
 cd api
-```
 
 3. Abra o projeto no seu editor de texto:
 
-4 Digite no seu terminal:
+4. Digite no seu terminal:
 ```sh 
 npm start
 ``` 
@@ -48,10 +47,10 @@ https://github.com/gui13info/Softaliza-Desafio
 2. Entre na pasta front-end:
 ```sh
 cd front-end
-```
+
 3. Abra o projeto no seu editor de texto:
 
-4 No seu terminal, instale os pacotes necessários
+4. No seu terminal, instale os pacotes necessários
 ```sh 
 yarn install
 ``` 
