@@ -14,7 +14,6 @@ function ShowEvents(){
             const docs = res.data;
 
             setProducts(docs);
-            console.log(docs);
         });
 
     }, []);

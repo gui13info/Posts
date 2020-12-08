@@ -39,21 +39,12 @@ function NewEvent(){
             local: local,
             endereco: endereco
         }).then(() => {
-            alert('Cadastro realizado com sucesso!')
+            alert('Evento cadastrado com sucesso!')
 
             history.push('/show-events');
         }).catch(() => {
             alert('Erro no cadastro!');
         });
-
-        console.log(titulo)
-        console.log(descricao)
-        console.log(email)
-        console.log(telefone)
-        console.log(data)
-        console.log(hora)
-        console.log(local)
-        console.log(endereco)
     }
 
     function handleLimpar(){
