@@ -14,6 +14,7 @@ https://github.com/gui13info/Softaliza-Desafio
 2. Entre na pasta api:
 ```sh
 cd api
+```
 
 3. Abra o projeto no seu editor de texto:
 
