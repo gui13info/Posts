@@ -8,7 +8,7 @@
 
 1. Clone esse repositório:
 ```sh 
-https://github.com/gui13info/Softaliza-Desafio
+https://github.com/gui13info/Posts
 ```
 
 2. Entre na pasta api:
@@ -41,7 +41,7 @@ npm start
 
 1. Clone esse repositório:
 ```sh 
-https://github.com/gui13info/Softaliza-Desafio
+https://github.com/gui13info/Posts
 ```
 
 2. Entre na pasta front-end:
