@@ -91,7 +91,7 @@ function EventsDetails(){
                         </div>
 
                         <p><strong>Local:</strong> {product.local}</p>
-                        <p><strong>Endreco:</strong> {product.endereco}</p>
+                        <p><strong>Endereço:</strong> {product.endereco}</p>
                     
                         <div className="acitions">
                             <i className='edit' onClick={ HandleShow }> <MdEdit /> </i>
